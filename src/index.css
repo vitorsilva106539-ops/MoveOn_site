@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-art-bg: #F9F7F2;
+  --color-art-primary: #1B4332;
+  --color-art-accent: #D8C3A5;
+  --color-art-ink: #141414;
+}
+
+body {
+  background-color: var(--color-art-bg);
+  color: var(--color-art-ink);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar adjustments to fit artisanal feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F2EFE9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8C3A5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1B4332;
+}
+
