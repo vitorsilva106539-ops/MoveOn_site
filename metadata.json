@@ -1,0 +1,6 @@
+{
+  "name": "MoveOn - Sustentabilidade & Logística",
+  "description": "Site expositório da MoveOn, focada em produção sustentável, economia circular e logística direta para o estado de São Paulo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
